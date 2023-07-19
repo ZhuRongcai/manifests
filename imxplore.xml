@@ -1,8 +1,7 @@
 <manifest>
-	<remote name="codeup" fetch="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6" />
-	<remote name="origin" fetch="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6" review="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6" />
+	<remote name="kernel" fetch="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6/imx6ull/kernel4.14.git" />
 
 	<default revision="master" remote="origin" sync-j="8" />
 
-	<project path="os/kernel" name="imx6ull/kernel4.14" />
+	<project path="os/kernel" name="kernel4.14" />
 </manifest>
