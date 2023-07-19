@@ -1,4 +1,5 @@
 <manifest>
+	<remote name="origin" fetch="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6/imx6ull" />
 	<remote name="kernel" fetch="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6/imx6ull/kernel4.14.git" />
 
 	<default revision="master" remote="origin" sync-j="8" />
