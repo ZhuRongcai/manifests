@@ -1,6 +1,6 @@
-<mainfest>
+<manifest>
 	<remote name="codeup" fetch="git@codeup.aliyun.com" />
 	<remote name="origin" fetch="git@codeup.aliyun.com" review="git@codeup.aliyun.com" />
 	<default revision="develop" remote="origin" sync_j="4" />
 	<project path="os/kernel" name="imx6ull/kernel4.14" />
-</mainfest>
+</manifest>
