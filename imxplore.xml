@@ -4,5 +4,5 @@
 
 	<default revision="master" remote="origin" sync-j="8" />
 
-	<project path="os/kernel" name="kernel4.14.git" remote="kernel" />
+	<project path="os/kernel" name="kernel4.14" remote="kernel" />
 </manifest>
