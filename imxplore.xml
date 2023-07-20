@@ -8,8 +8,7 @@
 	<!--path 定义了git仓库应该把远程源码存放到本地的位置-->	
 	<!--Groups：项目组的名称，有一些项目可能在被用在多个具体的实例中，所以将它们分组，通常有common，devel等组。-->
 	<remote name="origin" 
-		fetch="." 
-		review="git@codeup.aliyun.com:6416f5a5a84870ae9d5950a6"/>
+		fetch="." />
 	
 	<default revision="master" remote="origin" sync-j="8" />
 
