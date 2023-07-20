@@ -7,11 +7,12 @@
 	<!--project 定义了一个新的项目-->
 	<!--path 定义了git仓库应该把远程源码存放到本地的位置-->	
 	<!--Groups：项目组的名称，有一些项目可能在被用在多个具体的实例中，所以将它们分组，通常有common，devel等组。-->
-	<remote name="kernel4.14" 
+	<remote name="origin" 
 		fetch="." 
 		review="git@codeup.aliyun.com:6416f5a5a84870ae9d5950a6"/>
 	
-	<default revision="master" remote="kernel4.14" sync-j="8" />
+	<default revision="master" remote="origin" sync-j="8" />
 
-	<project path="os/kernel" name="kernel4.14.git" revision="master" remote="kernel4.14" />
+	<project path="os/kernel" name="kernel4.14.git" revision="master" />
+	<project path="os/uboot" name="uboot.git" revision="master" />
 </manifest>
