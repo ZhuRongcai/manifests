@@ -15,6 +15,7 @@
 
 	<project path="os/kernel" name="kernel4.14.git" revision="master" />
 	<project path="os/uboot" name="uboot.git" revision="master" />
+	<project path="os/drivers" name="drivers.git" revision="master" />
 	<project path="workbench/busybox" name="busybox1.29.0.git" revision="master" />
 	<project path="workbench/burntool" name="burntool.git" revision="master" />
 </manifest>
