@@ -18,5 +18,7 @@
 	<project path="os/drivers" name="drivers.git" revision="master" />
 	<project path="workbench/busybox" name="busybox1.29.0.git" revision="master" />
 	<project path="workbench/burntool" name="burntool.git" revision="master" />
-	<project path="workbench/scripts" name="scripts.git" revision="master" />
+	<project path="workbench/scripts" name="scripts.git" revision="master" >
+		<linkfile src="build_tool.sh" dest="workbench/build_tool.sh" />
+	</project>
 </manifest>
