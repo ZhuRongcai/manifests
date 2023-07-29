@@ -1,0 +1,7 @@
+1. Download method
+repo init -u git@github.com:ZhuRongcai/manifests.git -b master -m imxplore.xml --no-repo-verify
+repo sync
+
+FAQ
+Q: During download occur download timeout.
+A: export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'. Try again.
