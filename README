@@ -1,0 +1,2 @@
+repo -u https://github.com/ZhuRongcai/manifests.git -b master -m imxplore.xml --no-repo-verify
+repo sync
