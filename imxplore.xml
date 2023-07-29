@@ -9,7 +9,7 @@
 	<!--Groups：项目组的名称，有一些项目可能在被用在多个具体的实例中，所以将它们分组，通常有common，devel等组。-->
 	<remote name="origin" 
 		fetch="." 
-		review="https://github.com/ZhuRongcai" />
+		review="https://codeup.aliyun.com/6416f5a5a84870ae9d5950a6/imx6ull" />
 	
 	<default revision="master" remote="origin" sync-j="8" />
 
